@@ -1,0 +1,47 @@
+# SQL Data Cleaning Project
+
+## Project Overview
+
+This project demonstrates data-cleaning techniques
+using PostgreSQL and SQL.
+
+The objective was to transform raw customer data
+into a standardized and analysis-ready dataset.
+
+## Data Cleaning Tasks
+
+- Identified and removed duplicate records
+- Used CTEs and ROW_NUMBER()
+- Removed leading and trailing spaces
+- Standardized customer names
+- Standardized gender values
+- Standardized state abbreviations
+- Converted emails to lowercase
+- Cleaned phone-number formatting
+- Handled NULL values
+- Standardized date formats
+- Performed data-quality validation
+
+## SQL Concepts Used
+
+- Common Table Expressions (CTEs)
+- ROW_NUMBER()
+- Window Functions
+- CASE Statements
+- GROUP BY
+- HAVING
+- COALESCE()
+- TRIM()
+- LOWER()
+- UPPER()
+- INITCAP()
+- REGEXP_REPLACE()
+- TO_DATE()
+- UPDATE
+- ALTER TABLE
+
+## Tools
+
+- PostgreSQL
+- pgAdmin
+- SQL
